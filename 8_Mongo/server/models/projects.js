@@ -19,6 +19,10 @@ const projectSchema = new Schema({
         type: String,
         required: true,
         default: ''
+    },
+    img: {
+        type: String,
+        default: ''
     }
 },{timestamps: true})
 
